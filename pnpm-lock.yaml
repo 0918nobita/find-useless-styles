@@ -6,6 +6,9 @@ settings:
 
 catalogs:
   default:
+    lightningcss:
+      specifier: ^1.32.0
+      version: 1.32.0
     vite-plus:
       specifier: latest
       version: 0.1.24
@@ -35,6 +38,10 @@ importers:
         version: 0.1.24(@types/node@25.9.2)(@voidzero-dev/vite-plus-core@0.1.24(@types/node@25.9.2)(jiti@2.7.0)(typescript@6.0.3)(yaml@2.9.0))(jiti@2.7.0)(typescript@6.0.3)(yaml@2.9.0)
 
   packages/utils:
+    dependencies:
+      lightningcss:
+        specifier: 'catalog:'
+        version: 1.32.0
     devDependencies:
       '@types/node':
         specifier: ^25.6.2
