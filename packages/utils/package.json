@@ -31,7 +31,8 @@
     "prepublishOnly": "vp run build"
   },
   "dependencies": {
-    "lightningcss": "catalog:"
+    "postcss": "catalog:",
+    "postcss-selector-parser": "catalog:"
   },
   "devDependencies": {
     "@types/node": "^25.6.2",

@@ -6,19 +6,21 @@ packages:
 catalogMode: prefer
 
 catalog:
-  "@types/node": ^24
+  '@types/node': ^24
   typescript: ^5
   vite: npm:@voidzero-dev/vite-plus-core@latest
   vitest: npm:@voidzero-dev/vite-plus-test@latest
   vite-plus: latest
   lightningcss: ^1.32.0
+  postcss: ^8.5.15
+  postcss-selector-parser: ^7.1.1
 overrides:
-  vite: "catalog:"
-  vitest: "catalog:"
+  vite: 'catalog:'
+  vitest: 'catalog:'
 peerDependencyRules:
   allowAny:
     - vite
     - vitest
   allowedVersions:
-    vite: "*"
-    vitest: "*"
+    vite: '*'
+    vitest: '*'
